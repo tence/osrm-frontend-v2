@@ -26,6 +26,7 @@ WORKDIR /usr/src/app
 # Bundle app source
 COPY . /usr/src/app
 
+#install osrm-frontend
 RUN npm install
 RUN make
 
